@@ -1,0 +1,14 @@
+Release/*
+Debug/*
+*/*.dot
+!*/Makefile
+*/.DS_Store
+*/*.dSYM
+*.tlog
+*.ipch
+*.idb
+*.iobj
+*.db
+*.opendb
+*.Err
+*.ipdb

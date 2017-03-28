@@ -1,0 +1,3 @@
+D:/Downloads/Snap-3.0/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Downloads/Snap-3.0/cmake-build-debug/CMakeFiles/Snap_3_0.dir
+D:/Downloads/Snap-3.0/cmake-build-debug/CMakeFiles/rebuild_cache.dir

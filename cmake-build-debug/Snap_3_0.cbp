@@ -1,0 +1,1562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Snap_3_0"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Downloads/Snap-3.0/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Downloads/Snap-3.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Downloads/Snap-3.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Downloads/Snap-3.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Downloads/Snap-3.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Downloads/Snap-3.0/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Downloads/Snap-3.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Downloads/Snap-3.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Downloads/Snap-3.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Downloads/Snap-3.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Snap_3_0">
+				<Option output="D:/Downloads/Snap-3.0/cmake-build-debug/Snap_3_0.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Downloads/Snap-3.0/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Downloads/Snap-3.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 Snap_3_0"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Downloads/Snap-3.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Downloads/Snap-3.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Downloads/Snap-3.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Snap_3_0/fast">
+				<Option output="D:/Downloads/Snap-3.0/cmake-build-debug/Snap_3_0.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Downloads/Snap-3.0/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Downloads/Snap-3.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 Snap_3_0/fast"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Downloads/Snap-3.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Downloads/Snap-3.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Downloads/Snap-3.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Downloads/Snap-3.0/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Downloads/Snap-3.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Downloads/Snap-3.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Downloads/Snap-3.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Downloads/Snap-3.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Downloads/Snap-3.0/contrib/unict_univr-risnap/RI-DSToSnap/rids.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/contrib/unict_univr-risnap/RI-DSToSnap/risnapds.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/contrib/unict_univr-risnap/RI-DSToSnap/timer.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/contrib/unict_univr-risnap/RiToSnap/rinetmatch.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/contrib/unict_univr-risnap/RiToSnap/risnap.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/contrib/unict_univr-risnap/RiToSnap/timer.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/XcodeTest/XcodeTest/main.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/agmfit/agmfitmain.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/agmfit/stdafx.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/agmfit/stdafx.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/agmfit/targetver.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/agmgen/agmgen.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/agmgen/stdafx.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/agmgen/stdafx.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/agmgen/targetver.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/bigclam/bigclam.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/bigclam/stdafx.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/bigclam/stdafx.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/bigclam/targetver.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/cascadegen/cascadegen.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/cascadegen/stdafx.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/cascadegen/stdafx.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/cascadegen/targetver.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/cascades/cascades.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/cascades/stdafx.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/cascades/stdafx.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/cascades/targetver.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/centrality/centrality.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/centrality/stdafx.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/centrality/stdafx.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/centrality/targetver.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/cesna/cesna.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/cesna/stdafx.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/cesna/stdafx.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/cesna/targetver.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/circles/circles.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/circles/stdafx.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/circles/stdafx.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/circles/targetver.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/cliques/cliquesmain.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/cliques/stdafx.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/cliques/stdafx.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/cliques/targetver.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/coda/coda.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/coda/stdafx.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/coda/stdafx.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/coda/targetver.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/community/community.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/community/stdafx.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/community/stdafx.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/community/targetver.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/concomp/concomp.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/concomp/stdafx.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/concomp/stdafx.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/concomp/targetver.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/flows/flows.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/flows/stdafx.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/flows/stdafx.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/flows/targetver.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/forestfire/forestfire.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/forestfire/stdafx.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/forestfire/stdafx.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/forestfire/targetver.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/graphgen/graphgen.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/graphgen/stdafx.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/graphgen/stdafx.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/graphgen/targetver.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/graphhash/graphhash.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/graphhash/stdafx.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/graphhash/stdafx.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/graphhash/targetver.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/infopath/generate_nets.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/infopath/infopath.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/infopath/stdafx.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/infopath/stdafx.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/infopath/targetver.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/kcores/kcores.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/kcores/stdafx.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/kcores/stdafx.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/kcores/targetver.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/kronem/kronem.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/kronem/stdafx.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/kronem/stdafx.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/kronem/targetver.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/kronfit/kronfit.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/kronfit/stdafx.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/kronfit/stdafx.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/kronfit/targetver.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/krongen/krongen.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/krongen/stdafx.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/krongen/stdafx.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/krongen/targetver.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/lshtest/lshtest.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/magfit/magfit.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/magfit/stdafx.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/magfit/stdafx.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/magfit/targetver.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/maggen/maggen.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/maggen/stdafx.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/maggen/stdafx.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/maggen/targetver.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/mkdatasets/mkdatasets.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/mkdatasets/stdafx.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/mkdatasets/stdafx.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/mkdatasets/targetver.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/motifcluster/motifclustermain.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/motifcluster/stdafx.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/motifcluster/stdafx.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/motifcluster/targetver.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/motifs/motifs.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/motifs/stdafx.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/motifs/stdafx.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/motifs/targetver.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/ncpplot/ncpplot.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/ncpplot/stdafx.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/ncpplot/stdafx.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/ncpplot/targetver.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/netevol/netevol.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/netevol/stdafx.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/netevol/stdafx.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/netevol/targetver.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/netinf/netinf.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/netinf/stdafx.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/netinf/stdafx.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/netinf/targetver.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/netstat/netstat.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/netstat/stdafx.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/netstat/stdafx.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/netstat/targetver.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/randwalk/randwalk.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/randwalk/stdafx.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/randwalk/stdafx.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/randwalk/targetver.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/rolx/stdafx.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/rolx/stdafx.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/rolx/targetver.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/rolx/testrolx.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/testgraph/stdafx.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/testgraph/stdafx.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/testgraph/targetver.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/testgraph/testgraph.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/zygote/stdafx.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/zygote/stdafx.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/zygote/targetver.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/examples/zygote/zydemo.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/base.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/base.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/bd.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/bd.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/bits.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/bits.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/blobbs.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/blobbs.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/ds.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/dt.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/dt.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/env.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/env.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/fl.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/fl.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/gnuplot.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/gnuplot.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/hash.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/hash.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/hashmp.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/html.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/html.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/http.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/http.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/json.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/json.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/linalg.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/linalg.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/lx.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/lx.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/md5.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/md5.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/os.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/os.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/priorityqueue.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/shash.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/ss.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/ss.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/ssmp.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/ssmp.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/stdafx.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/tm.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/tm.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/unicode.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/unicode.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/unicodestring.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/unicodestring.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/url.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/url.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/ut.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/ut.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/wch.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/wch.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/xfl.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/xfl.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/xmath.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/xmath.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/xml.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/xml.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/xmlser.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/zipfl.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/glib-core/zipfl.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-adv/agm.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-adv/agm.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-adv/agmattr.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-adv/agmattr.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-adv/agmdirected.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-adv/agmdirected.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-adv/agmfast.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-adv/agmfast.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-adv/agmfit.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-adv/agmfit.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-adv/cascdynetinf.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-adv/cascdynetinf.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-adv/cascnetinf.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-adv/cascnetinf.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-adv/circles.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-adv/cliques.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-adv/cliques.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-adv/graphcounter.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-adv/graphcounter.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-adv/kronecker.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-adv/kronecker.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-adv/mag.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-adv/mag.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-adv/motifcluster.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-adv/motifcluster.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-adv/ncp.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-adv/ncp.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-adv/rolx.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-adv/rolx.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-adv/subgraphenum.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-adv/subgraphenum.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/Snap.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/Snap.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/alg.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/alg.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/anf.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/anf.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/attr.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/attr.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/bfsdfs.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/bignet.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/casc.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/casc.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/centr.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/centr.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/cmty.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/cmty.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/cncom.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/cncom.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/conv.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/conv.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/coreper.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/coreper.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/ff.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/ff.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/flow.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/flow.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/gbase.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/gbase.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/ggen.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/ggen.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/ghash.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/ghash.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/gio.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/gio.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/graph.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/graph.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/graphmp.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/graphmp.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/gstat.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/gstat.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/gsvd.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/gsvd.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/gviz.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/gviz.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/kcore.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/mmnet.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/mmnet.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/network.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/network.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/networkmp.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/networkmp.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/numpy.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/numpy.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/randwalk.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/statplot.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/statplot.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/stdafx.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/subgraph.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/subgraph.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/table.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/table.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/testSnap.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/timenet.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/timenet.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/triad.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/triad.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/util.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-core/util.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/alternativetable.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/alternativetable.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/arxiv.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/arxiv.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/bfs-dev/bfs-dev.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/bfs-dev/bfs-hybrid-test.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/bfs-dev/bfs-hybrid.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/bfs-dev/bfs-parallel.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/bfs-dev/bfs-vector.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/bfs-dev/getScc.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/bfs-dev/livejournal.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/bfs-dev/microsoft.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/bfs-dev/stdafx.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/bfs-dev/stdafx.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/bfs-dev/targetver.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/bfs-dev/test.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/bfs-dev/test1.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/bfs-dev/test_parallel.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/bfs-dev/twitter.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/cascades-benchmark/baseline.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/cascades-benchmark/sortSource.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/cascades-benchmark/sortTime.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/cascades-benchmark/stdafx.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/cascades-benchmark/stdafx.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/cascades-benchmark/targetver.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/cascades-dev/devBaseline.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/cascades-dev/devBaselineTop.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/cascades-dev/devGraph_v1.2.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/cascades-dev/devSort_v1.4.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/cascades-dev/stdafx.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/cascades-dev/stdafx.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/cascades-dev/targetver.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/centr-exp.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/centr-exp.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/circles/circles.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/circles/circles.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/circles/stdafx.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/circles/stdafx.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/circles/targetver.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/dblp.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/dblp.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/graphmp-exp.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/imdbnet.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/imdbnet.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/linkpred.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/linkpred.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/lsh.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/lsh.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/memenet.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/memenet.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/memes.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/memes.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/mmgraph-exp.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/mmgraph-exp.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/multimodal-dev/benchmark-TNEANet-unweighted.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/multimodal-dev/benchmark-TNEANet-weighted.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/multimodal-dev/benchmark-unweighted.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/multimodal-dev/benchmark-util.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/multimodal-dev/benchmark-weighted.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/multimodal-dev/benchmark.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/multimodal-dev/delete-exp.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/multimodal-dev/graph-construct-exp.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/multimodal-dev/multimodal.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/multimodal-dev/rand-construct-exp.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/multimodal-dev/stdafx.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/multimodal-dev/stdafx.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/multimodal-dev/subgraph-exp.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/multimodal-dev/targetver.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/multimodal-dev/triad-exp.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/mxdag.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/mxdag.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/signnet.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/signnet.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/sir.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/sir.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/spinn3r.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/spinn3r.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/test-dev/AggrTest.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/test-dev/ArithOpsTest.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/test-dev/Benchmark.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/test-dev/BenchmarkAshton.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/test-dev/BenchmarkUtilities.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/test-dev/ConvBenchmark.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/test-dev/ConvBenchmarkMP.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/test-dev/Engine.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/test-dev/Engine.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/test-dev/ExplicitStringTableTest1.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/test-dev/ExplicitStringTableTest2.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/test-dev/ExplicitStringTableTest3.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/test-dev/ExplicitStringTableTest4.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/test-dev/ExplicitStringTableTest5.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/test-dev/ExplicitStringTableTest6.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/test-dev/FilterTest.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/test-dev/GraphOperationsTest.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/test-dev/GroupTest.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/test-dev/HashtagGraphTest.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/test-dev/IdTest.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/test-dev/LoadTest.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/test-dev/MemoryAllocTest.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/test-dev/ParGroupAggrTest.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/test-dev/ParJoinTest.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/test-dev/ParLargeGraph.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/test-dev/ParSelect2Test.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/test-dev/ParSelectTest.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/test-dev/ParToGraphTest.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/test-dev/ParallelGroupByTest.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/test-dev/PhysicalOrderSortTest1.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/test-dev/PhysicalOrderSortTest2.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/test-dev/PredicateTest.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/test-dev/SetOperationsTest.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/test-dev/SimJoinPerGroupTest.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/test-dev/SimJoinTest.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/test-dev/TableAttributeTest.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/test-dev/TableIndexTest.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/test-dev/TablePageRank.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/test-dev/TableTest.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/test-dev/TableTest1.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/test-dev/ToGraphSeqTest.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/test-dev/ToGraphTest.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/test-dev/testPageRank.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/test-dev/testTriangleCount.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/trawling.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/trawling.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/wgtnet.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/wgtnet.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/wikinet.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/snap-exp/wikinet.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/test/run-all-tests.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/test/test-TAttr.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/test/test-TCrossNet.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/test/test-TDirNet.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/test/test-THash.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/test/test-THashSet.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/test/test-TMMNet.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/test/test-TModeNet.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/test/test-TNEANet.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/test/test-TNEGraph.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/test/test-TNGraph.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/test/test-TNodeEDatNet.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/test/test-TNodeEdgeNet.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/test/test-TNodeNet.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/test/test-TStrPool.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/test/test-TSysTm.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/test/test-TTable.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/test/test-TUNGraph.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/test/test-TUndirNet.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/test/test-alg.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/test/test-bfsdfs.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/test/test-cncom.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/test/test-file.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/test/test-flow.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/test/test-ggen.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/test/test-gio.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/test/test-gviz.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/test/test-helper.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/test/test-helper.h">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/test/test-multimodal.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/test/test-priority-queue.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/test/test-randwalk.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/test/test-subgraph.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/test/test-triad.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/tutorials/demo-TAttr.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/tutorials/demo-TDirNet.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/tutorials/demo-THash.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/tutorials/demo-TNEANet.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/tutorials/demo-TNEGraph.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/tutorials/demo-TNGraph.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/tutorials/demo-TNodeEDatNet.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/tutorials/demo-TNodeEdgeNet.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/tutorials/demo-TNodeNet.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/tutorials/demo-TSsParser.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/tutorials/demo-TUNGraph.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/tutorials/demo-TUndirNet.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/tutorials/demo-alg.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/tutorials/demo-bfsdfs.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/tutorials/demo-cncom.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/tutorials/demo-cncom1.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/tutorials/demo-ggen.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/tutorials/demo-gio.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/tutorials/demo-gviz.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/tutorials/demo-hashvec-benchmark.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/tutorials/demo-multimodal.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/tutorials/demo-subgraph.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/tutorials/demo-topology-benchmark.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/tutorials/demo-triad.cpp">
+			<Option target="Snap_3_0"/>
+		</Unit>
+		<Unit filename="D:/Downloads/Snap-3.0/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
