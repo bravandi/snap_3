@@ -58,16 +58,17 @@ int main(int argc, char* argv[]) {
 	double NetEKTimeSum = 0;
 	int NumWins = 0;
 	Try
-	//const TStr InFNm = Env.GetIfArgPrefixStr("-i:", NULL, "Input file");
-	//const TStr SaveOut = Env.GetIfArgPrefixStr("-o:", NULL, "Output Bipartite Flow");
-	//const int SrcNId = Env.GetIfArgPrefixInt("-src:", NULL, "Source Node Id");
-	//const int SnkNId = Env.GetIfArgPrefixInt("-snk:", NULL, "Sink Node Id");
+	
+		const TStr InFNm = Env.GetIfArgPrefixStr("-i:", NULL, "Input file");
+	const TStr SaveOut = Env.GetIfArgPrefixStr("-o:", NULL, "Output Bipartite Flow");
+	const int SrcNId = Env.GetIfArgPrefixInt("-src:", NULL, "Source Node Id");
+	const int SnkNId = Env.GetIfArgPrefixInt("-snk:", NULL, "Sink Node Id");
 
-	const int SnkNId = 999999999;
-	const int SrcNId = SnkNId - 1;
+	//const int SnkNId = 14;
+	//const int SrcNId = SnkNId - 1;
 	//const TStr InFNm = "D:\\SoftwareProject\\Snap-3.0\\snap_customized_cn\\flows\\12.txt";
-	const TStr InFNm = "D:\\SoftwareProject\\Snap-3.0\\snap_customized_cn\\flows\\small_sample.txt";
-	const TStr SaveOut = "D:\\SoftwareProject\\Snap-3.0\\snap_customized_cn\\flows\\12_PR.txt";
+	//const TStr InFNm = "D:\\SoftwareProject\\Snap-3.0\\snap_customized_cn\\flows\\small_sample.txt";
+	//const TStr SaveOut = "D:\\SoftwareProject\\Snap-3.0\\snap_customized_cn\\flows\\12_PR.txt";
 
 	printf("Integer Flow Test\n");
 	printf("Filename: %s\n", InFNm.CStr());
@@ -89,12 +90,12 @@ int main(int argc, char* argv[]) {
 
 	TStr bip = TStr();
 
-	int NetMaxFlowPR = TSnap::GetMaxFlowIntPR(Net, SrcNId, SnkNId, bip);
+	//int NetMaxFlowPR = TSnap::GetMaxFlowIntPR(Net, SrcNId, SnkNId, bip);
+
+	int NetMaxFlowEK = TSnap::GetMaxFlowIntEK(Net, SrcNId, SnkNId, bip);
 
 	PSOut SOut = TFOut::New(SaveOut);
 	bip.SaveTxt(SOut);
-
-	//int NetMaxFlowEK = TSnap::GetMaxFlowIntEK(Net, SrcNId, SnkNId);
 
 	//printf("\nbip: %s", bip.CStr());
 
@@ -164,7 +165,7 @@ int main_old(int argc, char* argv[]) {
 			double NetPRFlowRunTime = PREndTime - PRBeginTime;
 
 			double EKBeginTime = getcputime();
-			int NetMaxFlowEK = TSnap::GetMaxFlowIntEK(Net, SrcNId, SnkNId);
+			int NetMaxFlowEK = TSnap::GetMaxFlowIntEK(Net, SrcNId, SnkNId, bip);
 
 			double EKEndTime = getcputime();
 			double NetEKFlowRunTime = EKEndTime - EKBeginTime;

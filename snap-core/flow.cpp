@@ -100,7 +100,7 @@ namespace TSnap {
 		return MinAug;
 	}
 
-	int GetMaxFlowIntEK(PNEANet &Net, const int &SrcNId, const int &SnkNId) {
+	int GetMaxFlowIntEK(PNEANet &Net, const int &SrcNId, const int &SnkNId, TStr &bipartite) {
 		IAssert(Net->IsNode(SrcNId));
 		IAssert(Net->IsNode(SnkNId));
 		if (SrcNId == SnkNId) { return 0; }
@@ -147,12 +147,23 @@ namespace TSnap {
 				}
 			}
 		}
-		printf("----------------Edmond--------------\n");
+		//printf("----------------Edmond--------------\n");
 		for (int i = 0; i < Net->GetMxEId(); i++) {
 			const TNEANet::TEdgeI &EI = Net->GetEI(i);
-			printf("From: %d To: %d | Flow[Edge: %d]: %d\n", EI.GetSrcNId(), EI.GetDstNId(), i, Flow[i]);
+			//printf("From: %d To: %d | Flow[Edge: %d]: %d\n", EI.GetSrcNId(), EI.GetDstNId(), i, Flow[i]);
+			int f = Flow[i];
+			int from_node = EI.GetSrcNId();
+			int to_node = EI.GetDstNId();
+
+			if (f > 0 && from_node != SrcNId && to_node != SnkNId) {
+				bipartite += TInt::GetStr(from_node) + " " + TInt::GetStr(to_node);
+				//bipartite += TInt::GetStr(from_node) + " " + TInt::GetStr(to_node) + " " + TInt::GetStr(PRM.Flow(i));
+				//printf("From: %d To: %d | Flow[Edge: %d]: %d\n", EI.GetSrcNId(), EI.GetDstNId(), i, PRM.Flow(i));
+
+				bipartite += "\n";
+			}
 		}
-		printf("----------------Edmond--------------\n");
+		//printf("----------------Edmond--------------\n");
 
 		return MaxFlow;
 	}
@@ -453,7 +464,7 @@ namespace TSnap {
 			if (RelabelCount % GRRate == 0) { GlobalRelabel(Net, PRM, SrcNId, SnkNId); }
 		}
 
-		/*printf("-------------Push Lable-----------------\n");*/
+		//printf("-------------Push Lable-----------------\n");
 		for (int i = 0; i < Net->GetMxEId(); i++) {
 			const TNEANet::TEdgeI &EI = Net->GetEI(i);
 			/*printf("From: %d To: %d | Flow[Edge: %d]: %d\n", EI.GetSrcNId(), EI.GetDstNId(), i, PRM.Flow(i));*/
@@ -462,13 +473,14 @@ namespace TSnap {
 			int from_node = EI.GetSrcNId();
 			int to_node = EI.GetDstNId();
 			if (f > 0 && from_node != SrcNId && to_node != SnkNId) {
-				bipartite += TInt::GetStr(from_node) + " " + TInt::GetStr(to_node);// +" " + TInt::GetStr(PRM.Flow(i));
-
+				//bipartite += TInt::GetStr(from_node) + " " + TInt::GetStr(to_node);
+				bipartite += TInt::GetStr(from_node) + " " + TInt::GetStr(to_node) + " " + TInt::GetStr(PRM.Flow(i));
+				//printf("From: %d To: %d | Flow[Edge: %d]: %d\n", EI.GetSrcNId(), EI.GetDstNId(), i, PRM.Flow(i));
 				bipartite += "\n";
 			}
 
 		}
-		/*printf("-------------Push Lable-----------------\n");*/
+		//printf("-------------Push Lable-----------------\n");
 
 		return PRM.Excess(SnkNId);
 	}
